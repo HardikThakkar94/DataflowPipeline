@@ -3,8 +3,10 @@ black==19.10b0
 isort==5.6.4
 flake8==3.8.4
 gdown==3.12.2 
-fastapi==0.62.0
+fastapi==0.65.2
 uvicorn==0.12.3 
-pydantic==1.7.3
-transformers==4.0.0
+pydantic==1.10.13
+transformers==4.30.0
 
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+starlette>=0.27.0 # not directly required, pinned by Snyk to avoid a vulnerability
